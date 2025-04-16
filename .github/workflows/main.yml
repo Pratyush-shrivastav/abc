@@ -20,4 +20,4 @@ jobs:
     
     - name: Deploy to server
       run: |
-        ssh -o StrictHostKeyChecking=no pratyush@192.168.98.187 "cd /home/pratyush/html_project && git pull origin main"
+        ssh -o StrictHostKeyChecking=no pratyush@2409:4080:de88:617:665e:61f2:5bd7:ea8 "cd /home/pratyush/html_project && git pull origin main"
